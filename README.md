@@ -1,6 +1,6 @@
 # dev-templates
 
-> Coleção de templates de projeto com estrutura, dependências e layout de terminal prontos — usado pelo script `new-project` dos [dotfiles](https://github.com/SEU_USUARIO/dotfiles).
+> Coleção de templates de projeto com estrutura, dependências e layout de terminal prontos — usado pelo script `new-project` dos [dotfiles](https://github.com/JonasFarias93/dotfiles).
 
 ---
 
@@ -14,7 +14,7 @@ Este repositório centraliza esses blueprints. Cada tipo de projeto tem seu pró
 
 ## Como usar
 
-O ponto de entrada é o script `new-project`, instalado pelos [dotfiles](https://github.com/SEU_USUARIO/dotfiles) e disponível globalmente no terminal.
+O ponto de entrada é o script `new-project`, instalado pelos [dotfiles](https://github.com/JonasFarias93/dotfiles) e disponível globalmente no terminal.
 
 ```bash
 new-project <nome> <tipo> [número-de-shells]
@@ -226,4 +226,4 @@ Edite esse arquivo para personalizar o que roda em cada painel (comandos iniciai
 
 ## Relacionado
 
-**[dotfiles](https://github.com/SEU_USUARIO/dotfiles)** — Ambiente WSL onde o `new-project` vive e de onde tudo parte
+**[dotfiles](https://github.com/JonasFarias93/dotfiles)** — Ambiente WSL onde o `new-project` vive e de onde tudo parte
