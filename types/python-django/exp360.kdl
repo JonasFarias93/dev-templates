@@ -1,0 +1,18 @@
+layout {
+  pane split_direction="vertical" {
+    pane command="bash" {
+      args "-lc" "cd ~/projects/expansao360 && source ~/miniforge3/etc/profile.d/conda.sh && conda activate expansao360 && clear"
+    }
+    pane command="bash" {
+      args "-lc" "cd ~/projects/expansao360 && source ~/miniforge3/etc/profile.d/conda.sh && conda activate expansao360 && ptw"
+    }
+  }
+  pane split_direction="vertical" {
+    pane command="bash" {
+      args "-lc" "cd ~/projects/expansao360 && source ~/miniforge3/etc/profile.d/conda.sh && conda activate expansao360 && python web/manage.py runserver 8001"
+    }
+    pane command="bash" {
+      args "-lc" "cd ~/projects/expansao360 && source ~/miniforge3/etc/profile.d/conda.sh && conda activate expansao360 && clear && echo 'Pronto: make test-js (ENTER)'"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+name: {{PROJECT_NAME}}
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - django
+      - pytest
+      - pytest-django
+      - pytest-watch
+      - python-dotenv
